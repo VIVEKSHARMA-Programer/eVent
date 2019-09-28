@@ -218,11 +218,8 @@ function loaddetailpage(){
 }
 
 
+// for hamburger menu //
 
-function goBack()
-  {
-  window.history.back()
-  }
   function openNav() {
 document.getElementById("myNav").style.width = "100%";
 }
@@ -231,8 +228,40 @@ function closeNav() {
 document.getElementById("myNav").style.width = "0%";
 }
 
+// to scroll down div page //
+
 (function() {
   for (div=0; div < document.querySelectorAll('div').length; div++) {
     document.querySelectorAll('div')[div].style.overflow = "auto";
   };
 })();
+
+//function to close the block //
+
+document.getElementById('closeButton').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
+
+
+document.getElementById('closeButton1').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
+
+
+document.getElementById('closeButton2').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
+
+
+document.getElementById('closeButton3').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
+
+document.getElementById('closeButton4').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
