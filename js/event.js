@@ -9,9 +9,9 @@ var area=document.querySelector("#area");
 area.addEventListener('change',function(){
   console.log(this.value);
   let a= this.value;
-  var darwin="https://api.myjson.com/bins/18d4q1";
-  var palmerston="https://api.myjson.com/bins/11figh";
-  var humptydoo="https://api.myjson.com/bins/ryykx";
+  var darwin="https://api.myjson.com/bins/jzfi1";
+  var palmerston="https://api.myjson.com/bins/jzfi1";
+  var humptydoo="https://api.myjson.com/bins/jzfi1";
 
   if(a.toLowerCase() === "darwin"){
   loadDoc(darwin);
@@ -50,9 +50,9 @@ var area1=document.querySelector("#area1");
 area1.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/dj07t";
-  var palmerston="https://api.myjson.com/bins/11figh";
-  var humptydoo="https://api.myjson.com/bins/ryykx";
+  var darwin="https://api.myjson.com/bins/jzfi1";
+  var palmerston="https://api.myjson.com/bins/jzfi1";
+  var humptydoo="https://api.myjson.com/bins/jzfi1";
 
   if(b.toLowerCase() === "darwin"){
   loadDoc(darwin);
@@ -91,10 +91,9 @@ var area2=document.querySelector("#area2");
 area2.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/dj07t";
-  var palmerston="https://api.myjson.com/bins/11figh";
-  var humptydoo="https://api.myjson.com/bins/ryykx";
-
+  var darwin="https://api.myjson.com/bins/jzfi1";
+  var palmerston="https://api.myjson.com/bins/jzfi1";
+  var humptydoo="https://api.myjson.com/bins/jzfi1";
   if(b.toLowerCase() === "darwin"){
   loadDoc(darwin);
   place2.style.display="none";
@@ -134,9 +133,9 @@ var area3=document.querySelector("#area3");
 area3.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/dj07t";
-  var palmerston="https://api.myjson.com/bins/11figh";
-  var humptydoo="https://api.myjson.com/bins/ryykx";
+  var darwin="https://api.myjson.com/bins/jzfi1";
+  var palmerston="https://api.myjson.com/bins/jzfi1";
+  var humptydoo="https://api.myjson.com/bins/jzfi1";
 
   if(b.toLowerCase() === "darwin"){
   loadDoc(darwin);
