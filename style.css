@@ -110,3 +110,10 @@ body{
     top:25%;
     left : 30%;
     }
+/* for close button */
+
+#closeButton,#closeButton1,#closeButton2,#closeButton3,#closeButton4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
