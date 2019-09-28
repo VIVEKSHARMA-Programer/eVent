@@ -230,3 +230,9 @@ document.getElementById("myNav").style.width = "100%";
 function closeNav() {
 document.getElementById("myNav").style.width = "0%";
 }
+
+(function() {
+  for (div=0; div < document.querySelectorAll('div').length; div++) {
+    document.querySelectorAll('div')[div].style.overflow = "auto";
+  };
+})();
