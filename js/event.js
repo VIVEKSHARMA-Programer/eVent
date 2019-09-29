@@ -27,15 +27,7 @@ area.addEventListener('change',function(){
 }
 
 });
-//
-function loaddetailpage(){
-  var cdudetailpage=document.querySelector("#cdudetailpage");
-  document.querySelector("#CDU").addEventListener('click',function(){
-  cdudetailpage.style.display="block";
 
-  });
-
-}
 
 
 
@@ -68,16 +60,6 @@ area1.addEventListener('change',function(){
 }
 
 });
-
-//
-function loaddetailpage(){
-  var cdudetailpage=document.querySelector("#cdudetailpage");
-  document.querySelector("#CDU").addEventListener('click',function(){
-  cdudetailpage.style.display="block";
-
-  });
-
-}
 
 
 /* for cultural */
@@ -119,9 +101,6 @@ function loaddetailpage(){
 
 }
 
-
-
-
 /* for Child Event */
 
 var child = document.querySelector('#child');
@@ -152,15 +131,7 @@ area3.addEventListener('change',function(){
 
 });
 
-//
-function loaddetailpage(){
-  var cdudetailpage=document.querySelector("#cdudetailpage");
-  document.querySelector("#CDU").addEventListener('click',function(){
-  cdudetailpage.style.display="block";
 
-  });
-
-}
 // Ajax request to match data
 function loadDoc(place) {
   var xhttp = new XMLHttpRequest();
@@ -207,15 +178,7 @@ function loadDoc(place) {
 
 }
 
-//
-function loaddetailpage(){
-  var cdudetailpage=document.querySelector("#cdudetailpage");
-  document.querySelector("#CDU").addEventListener('click',function(){
-  cdudetailpage.style.display="block";
 
-  });
-
-}
 
 
 // for hamburger menu //
