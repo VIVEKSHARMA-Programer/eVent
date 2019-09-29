@@ -101,6 +101,16 @@ function loaddetailpage(){
 
 }
 
+function loaddetailpage(){
+  var cdudetailpage=document.querySelector("#cdudetailpage");
+  document.querySelector("#CDU").addEventListener('click',function(){
+  cdudetailpage.style.display="block";
+
+  });
+
+}
+
+
 /* for Child Event */
 
 var child = document.querySelector('#child');
