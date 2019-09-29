@@ -105,10 +105,10 @@ body{
     position:fixed;
     z-index:1;
     background-color:white;
-    width:50%;
+    width:80%;
     height:50%;
     top:25%;
-    left : 30%;
+    left : 10%;
     }
 /* for close button */
 
@@ -116,4 +116,14 @@ body{
   position: absolute;
   top: 0;
   right: 0;
+}
+
+
+h1{
+  margin-left: 5px;
+  color: black;
+}
+p{
+  margin-left: 5px;
+  color: black;
 }

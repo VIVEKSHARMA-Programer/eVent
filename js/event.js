@@ -265,3 +265,8 @@ document.getElementById('closeButton4').addEventListener('click', function(e) {
     e.preventDefault();
     this.parentNode.style.display = 'none';
 }, false);
+
+document.getElementById('closeButton5').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.parentNode.style.display = 'none';
+}, false);
