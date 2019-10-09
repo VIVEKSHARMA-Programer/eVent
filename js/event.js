@@ -9,9 +9,9 @@ var area=document.querySelector("#area");
 area.addEventListener('change',function(){
   console.log(this.value);
   let a= this.value;
-  var darwin="https://api.myjson.com/bins/jzfi1";
-  var palmerston="https://api.myjson.com/bins/jzfi1";
-  var humptydoo="https://api.myjson.com/bins/jzfi1";
+  var darwin="https://api.myjson.com/bins/175lka";
+  var palmerston="https://api.myjson.com/bins/16x8my";
+  var humptydoo="https://api.myjson.com/bins/xitrm";
 
   if(a.toLowerCase() === "darwin"){
   loadDoc(darwin);
@@ -42,9 +42,9 @@ var area1=document.querySelector("#area1");
 area1.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/jzfi1";
-  var palmerston="https://api.myjson.com/bins/jzfi1";
-  var humptydoo="https://api.myjson.com/bins/jzfi1";
+  var darwin="https://api.myjson.com/bins/du0si";
+  var palmerston="https://api.myjson.com/bins/mriv6";
+  var humptydoo="https://api.myjson.com/bins/7xtwi";
 
   if(b.toLowerCase() === "darwin"){
   loadDoc(darwin);
@@ -73,9 +73,9 @@ var area2=document.querySelector("#area2");
 area2.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/jzfi1";
-  var palmerston="https://api.myjson.com/bins/jzfi1";
-  var humptydoo="https://api.myjson.com/bins/jzfi1";
+  var darwin="https://api.myjson.com/bins/qv782";
+  var palmerston="https://api.myjson.com/bins/6367m";
+  var humptydoo="https://api.myjson.com/bins/1gizea";
   if(b.toLowerCase() === "darwin"){
   loadDoc(darwin);
   place2.style.display="none";
@@ -122,7 +122,7 @@ var area3=document.querySelector("#area3");
 area3.addEventListener('change',function(){
   console.log(this.value);
   let b= this.value;
-  var darwin="https://api.myjson.com/bins/jzfi1";
+  var darwin="https://api.myjson.com/bins/1hfciq";
   var palmerston="https://api.myjson.com/bins/jzfi1";
   var humptydoo="https://api.myjson.com/bins/jzfi1";
 
