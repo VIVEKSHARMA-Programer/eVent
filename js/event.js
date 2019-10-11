@@ -243,3 +243,8 @@ document.getElementById('closeButton5').addEventListener('click', function(e) {
     e.preventDefault();
     this.parentNode.style.display = 'none';
 }, false);
+
+
+function clearf() {
+  location.reload();
+}
