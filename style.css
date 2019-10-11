@@ -64,17 +64,22 @@ body{
     #place,#place1,#place2,#place3{
       display: none;
       padding : 5em;
-      background-color: #7FDBFF;
+      background: linear-gradient(to right, #ff99cc 0%, #3399ff 100%);
       position: absolute;
       top : 40%;
-      left:6%;
+      left:3%;
+      width: 50%;
+      transition: all 0.25s ease-in-out;
+      border-radius: 10px;
+
     }
 
     #area,#area1,#area2,#area3{
-      font-size: 20px;
+      font-size: 25px;
       font-style: italic;
 
     }
+
     #event{
      background-image: url("images/bck.jpg");
      background-color: grey;
@@ -129,4 +134,7 @@ h1{
 p{
   margin-left: 5px;
   color: black;
+}
+#closeButton4{
+  position: absolute;
 }
