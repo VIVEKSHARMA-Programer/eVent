@@ -188,6 +188,15 @@ function loadDoc(place) {
 
 }
 
+//*         *//
+function loaddetailpage(){
+  var cdudetailpage=document.querySelector("#cdudetailpage");
+  document.querySelector("#Diwali").addEventListener('click',function(){
+  cdudetailpage.style.display="block";
+
+  });
+
+}
 
 
 
@@ -247,4 +256,15 @@ document.getElementById('closeButton5').addEventListener('click', function(e) {
 
 function clearf() {
   location.reload();
+}
+
+
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -12.463485, lng: 130.837635};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 18, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
 }

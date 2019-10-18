@@ -18,7 +18,7 @@
 <a href="setting.html">settings</a>
 </div>
 </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span><br><br>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Settings</span><br><br>
 <button class="button button2" id="cultural"style="background:#ff0036;">Cultural Events</button>
 <button class="button button3" id="sports" style="background:#02df0c;">Sports Event</button>
 <button class="button button4" id="music" style="background:#fff221;">Music Events</button>
@@ -78,17 +78,16 @@
 </div>
 
 
-
-
 <div class="detail" id="cdudetailpage">
-  <button id="closeButton5">close</button>
-              <img src="images/indian.jpg" alt="Vivek" class="card-image">
-              <h1>Indian Festival</h1>
+  <button id="closeButton5">&#x274C;</button>
+              <img src="images/indian.jpg" alt="Vivek" class="card-image" style="height:160px;width:300px;">
+              <h1>Diwali</h1>
               <p>Venue: Esplanade Darwin City</p>
               <p>Time: 1pm-10pm</p>
               <p>Entry: Free !!</p>
               <p>[No Job]</p>
-              <button id="closeButton5">close</button>
+              <div id="map"></div>
+
 
 </div>
 <div class="detail" id="detailpage2">
@@ -97,5 +96,8 @@
 </div>
 
 <script src="js/event.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoFDL5I8DSubuyxmQwU-IAvYg6M5u3wBQ&callback=initMap">
+    </script>
       </body>
       </html>

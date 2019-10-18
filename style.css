@@ -117,10 +117,12 @@ body{
     height:50%;
     top:25%;
     left : 10%;
+    background: linear-gradient(to right, #ff99cc 0%, #3399ff 100%);
+
     }
 /* for close button */
 
-#closeButton,#closeButton1,#closeButton2,#closeButton3,#closeButton4 {
+#closeButton,#closeButton1,#closeButton2,#closeButton3,#closeButton4,#closeButton5 {
   position: absolute;
   top: 0;
   right: 0;
@@ -138,3 +140,8 @@ p{
 #closeButton4{
   position: absolute;
 }
+
+#map {
+      height: 300px;  /* The height is 400 pixels */
+      width: 100%;  /* The width is the width of the web page */
+     }
