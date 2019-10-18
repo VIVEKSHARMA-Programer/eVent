@@ -91,16 +91,6 @@ area2.addEventListener('change',function(){
 
 });
 
-//
-function loaddetailpage(){
-  var cdudetailpage=document.querySelector("#cdudetailpage");
-  document.querySelector("#CDU").addEventListener('click',function(){
-  cdudetailpage.style.display="block";
-
-  });
-
-}
-
 
 
 /* for Child Event */
