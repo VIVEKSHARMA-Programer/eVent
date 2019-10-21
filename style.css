@@ -145,3 +145,14 @@ p{
       height: 300px;  /* The height is 400 pixels */
       width: 100%;  /* The width is the width of the web page */
      }
+
+/* like butoon */
+
+.fa {
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
